@@ -10,17 +10,13 @@ function Email() {
     );
     if (emailRegex.test(email)) {
       setMessage(null);
-    } else if (!emailRegex.test(email)) {
+    } else {
       setMessage("Please enter a valid email address");
     }
   };
 
-  const hanldOnChange = (e) => {
-    if (email === "") {
-      setMessage(null);
-    } else {
-      setEmail(e.target.value);
-    }
+  const handleOnChange = (e) => {
+    setEmail(e.target.value);
   };
   return (
     <section className='email'>
@@ -38,7 +34,7 @@ function Email() {
                 type='email'
                 name='email'
                 id='1'
-                onChange={hanldOnChange}
+                onChange={handleOnChange}
               />
               <button className='btn' onClick={emailValidation}>
                 Get Started For Free
