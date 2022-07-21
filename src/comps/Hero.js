@@ -1,6 +1,5 @@
 import React from "react";
 import introill from "../images/illustration-intro.png";
-import { BgDesktopCurve } from "../images/bg-curvy-desktop.jsx";
 function Hero() {
   return (
     <section>
