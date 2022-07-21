@@ -6,7 +6,7 @@ function Hero() {
       <div className='container'>
         <div className='hero-container grid'>
           <img src={introill} alt='intro' />
-          <h2> All your files in one secure location, accessible anywhere.</h2>
+          <h1> All your files in one secure location, accessible anywhere.</h1>
           <p>
             Fylo stores all your most important files in one secure location.
             Access them wherever you need, share and collaborate with friends

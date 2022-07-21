@@ -28,42 +28,56 @@ function Footer() {
           </ul>
           <ul className='other-nav-1'>
             <li>
-              <a href='/'>About Us</a>
+              <a href='/' aria-label='about us'>
+                About Us
+              </a>
             </li>
             <li>
-              <a href='/'>Jobs</a>
+              <a href='/' aria-label='jobs'>
+                Jobs
+              </a>
             </li>
             <li>
-              <a href='/'>Press</a>
+              <a href='/' aria-label='press'>
+                Press
+              </a>
             </li>
             <li>
-              <a href='/'>Blog</a>
+              <a href='/' aria-label='blog'>
+                Blog
+              </a>
             </li>
           </ul>
           <ul className='other-nav-2'>
             <li>
-              <a href='/'>Contact Us</a>
+              <a href='/' aria-label='contact'>
+                Contact Us
+              </a>
             </li>
             <li>
-              <a href='/'>Terms</a>
+              <a href='/' aria-label='terms'>
+                Terms
+              </a>
             </li>
             <li>
-              <a href='/'>Privacy</a>
+              <a href='/' aria-label='privacy'>
+                Privacy
+              </a>
             </li>
           </ul>
           <ul className='social flex'>
             <li className='fb'>
-              <a href='/'>
+              <a href='/' aria-label='facebook'>
                 <i class='fa-brands fa-facebook-f'></i>
               </a>
             </li>
             <li className='twitter'>
-              <a href='/'>
+              <a href='/' aria-label='twitter'>
                 <i class='fa-brands fa-twitter'></i>
               </a>
             </li>
             <li className='insta'>
-              <a href='/'>
+              <a href='/' aria-label='instagram'>
                 <i class='fa-brands fa-instagram'></i>
               </a>
             </li>

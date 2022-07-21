@@ -6,7 +6,7 @@ import icon4 from "../images/icon-security.svg";
 
 function SectionOne() {
   return (
-    <section className='category'>
+    <section>
       <div className='container'>
         <div className='sectionOne-container grid'>
           <div className='grid'>

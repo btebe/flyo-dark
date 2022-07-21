@@ -35,6 +35,8 @@ function Email() {
                 name='email'
                 id='1'
                 onChange={handleOnChange}
+                aria-label='Email'
+                placeholder='email@example.com'
               />
               <button className='btn' onClick={emailValidation}>
                 Get Started For Free

@@ -286,7 +286,7 @@ or *:not(:first-child)
 .hero-container > img{
   width: 50%;
 }
-.hero-container > h2{
+.hero-container > h1{
   max-width: 30ch;
   text-align: center;
   margin-bottom: 1rem;
@@ -667,7 +667,7 @@ footer{
     width: 90%;
     margin-top: 2rem;
   }
-  .hero-container > h2{
+  .hero-container > h1{
     font-size: 25px;
   }
   

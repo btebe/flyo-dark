@@ -2,8 +2,8 @@ import React from "react";
 import flyologo from "../images/logo.svg";
 function Nav() {
   return (
-    <header >
-      <div className="container">
+    <header>
+      <div className='container'>
         <div className='primary-header flex'>
           <div>
             <img src={flyologo} alt='flyo-logo' className='logo' />
@@ -11,20 +11,24 @@ function Nav() {
           <nav>
             <ul className='primary-navigation flex underline-indicators'>
               <li>
-                <a href='features'>Features</a>
+                <a href='features' aria-label='features'>
+                  Features
+                </a>
               </li>
               <li>
-                <a href='team'>Team</a>
+                <a href='team' aria-label='Team'>
+                  Team
+                </a>
               </li>
               <li>
-                <a href='signin'>Sign In</a>
+                <a href='signin' aria-label='signin'>
+                  Sign In
+                </a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
-
-
     </header>
   );
 }

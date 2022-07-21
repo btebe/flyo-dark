@@ -4,7 +4,7 @@ import arrowIcon from "../images/icon-arrow.svg";
 import arrowIcon2 from "../images/icon-arrow-white.svg";
 function SectionTwo() {
   return (
-    <section className='promotion'>
+    <section>
       <div className='container'>
         <div className='sectionTwo-container grid'>
           <img src={illus} alt='stay productive illustration' />
