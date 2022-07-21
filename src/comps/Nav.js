@@ -1,0 +1,32 @@
+import React from "react";
+import flyologo from "../images/logo.svg";
+function Nav() {
+  return (
+    <header >
+      <div className="container">
+        <div className='primary-header flex'>
+          <div>
+            <img src={flyologo} alt='flyo-logo' className='logo' />
+          </div>
+          <nav>
+            <ul className='primary-navigation flex underline-indicators'>
+              <li>
+                <a href='features'>Features</a>
+              </li>
+              <li>
+                <a href='team'>Team</a>
+              </li>
+              <li>
+                <a href='signin'>Sign In</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+
+    </header>
+  );
+}
+
+export default Nav;
